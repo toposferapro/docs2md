@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Тестовые выгрузки и локальные конверты
+markdown/
+*.md.out
+
+# Служебное
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*

@@ -1,0 +1,7 @@
+# Зависимости docs2md. Версии — минимальные рабочие, проверены на Python 3.11.
+PyMuPDF>=1.24        # PDF: текст и таблицы (page.find_tables)
+python-pptx>=1.0     # PPTX: слайды, таблицы, заметки
+mammoth>=1.6         # DOCX → Markdown
+markdownify>=0.11    # HTML → Markdown (в т.ч. внутри EPUB)
+EbookLib>=0.18       # EPUB
+openpyxl>=3.1        # XLSX / XLSM
